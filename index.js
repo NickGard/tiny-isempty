@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.isEmpty=function(e){return/(Map|Set)\]$/.test(Object.prototype.toString.call(e))?0===e.size:"string"==typeof e?!e:"object"!=typeof e||!e||0===e.length||0===Object.keys(e).length};
